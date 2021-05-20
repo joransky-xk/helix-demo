@@ -1,0 +1,10 @@
+.productslist table.product-info {
+  width: 100%;
+  border: 1px solid gray;
+}
+
+.productslist table.product-info td {
+  border: 1px solid gray;
+  margin: 0px;
+  padding: 5px;
+}

@@ -106,7 +106,6 @@ async function decoratePage() {
 }
 
 function loadLater() {
-  document.body.classList.add('appear');
   decorateBlocks();
   loadCSS('/lazy-style.css');
 }
