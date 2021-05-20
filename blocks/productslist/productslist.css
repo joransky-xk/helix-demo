@@ -3,6 +3,10 @@
   border: 1px solid gray;
 }
 
+.productslist table.product-info tr {
+
+}
+
 .productslist table.product-info td {
   border: 1px solid gray;
   margin: 0px;

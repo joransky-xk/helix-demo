@@ -74,13 +74,7 @@ async function decorateBlocks() {
       await mod.default($block, blockName, document);
     } catch (ew) {
       console.error(ew)
-    }
-    // import(`/blocks/${blockName}/${blockName}.js`)
-    //   .then((mod) => {
-    //     mod.default($block, blockName, document);
-    //   })
-    //   .catch((err) => console.log(`failed to load module for ${blockName}`, err));
-
+    }    
     loadCSS(`/blocks/${blockName}/${blockName}.css`);
   });
 }
